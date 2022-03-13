@@ -1,5 +1,5 @@
 <h1><i> DSA Archive 🍀</i></h1>
-Keeping a track of all the DSA problems that I've found tricky or struggled with (mainly from GFG and LeetCode).
+Keeping a track of all the DSA problems that I've found tricky, struggled with or are important (mainly from GFG and LeetCode).
 <br></br>
 <h3> Problems from------></h3>
 <ul>
