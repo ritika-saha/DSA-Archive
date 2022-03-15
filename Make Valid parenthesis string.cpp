@@ -61,6 +61,6 @@ here stack data structure has been used
 traverse the string from start to end and on encountering ( push the index to the stack
 on encountering ) if the stack is empty that means the ) is an unbalanced one and thus replace the string's index with !
 else if the stack is not empty that means the ) is the closing for previously encountered ( this pop the previous (
-after the loop endes is the stack isnt empty then replace the indexes of the string in the stack with !
-now form a string excluding the ! and voila thats the answer
+after the loop endes is the stack isn't empty then replace the indexes of the string in the stack with !
+now form a string excluding the ! and voila that's the answer.
 */
