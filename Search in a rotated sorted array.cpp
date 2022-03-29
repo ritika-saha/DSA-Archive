@@ -20,7 +20,7 @@ public:
         while(l<=r){
             int mid=l+(r-l)/2;
             
-            //if found at mid
+            //if target found at mid
             if(nums[mid]==target)
                 return true;
             
