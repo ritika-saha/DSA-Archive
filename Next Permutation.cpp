@@ -17,3 +17,36 @@ Input: nums = [1,2,3]
 Output: [1,3,2]
 
 */
+
+
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        int n=nums.size();
+        int l,r;
+        //finding longest non increasing sequence
+        for(l=n-2;l>=0;l--){
+            if(nums[l]<nums[l+1])
+                break;
+        }
+        
+        //reversing if answer is not possible
+        if(l<0)
+            reverse(nums.begin(),nums.end());
+        
+        //finding rightmost succesor to pivot
+        else{
+        for(r=n-1;r>l;r--){
+            if(nums[r]>nums[l])
+                break;
+        }
+        
+        //swapping with pivot the rightmost seccesor
+        swap(nums[l],nums[r]);
+        
+        //reversing the suffix
+        reverse(nums.begin()+l+1,nums.end());
+        }
+        
+    }
+};
