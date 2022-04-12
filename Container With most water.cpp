@@ -39,7 +39,7 @@ public:
 
 
 
-/**  ----------------------------------------------------------------------NOTES-----------------------------------------------------------------------------
+/**  ----------------------------------------------------------------------NOTES-------------------------------------------------------------------------------
 1)take two pointers one at the beginning  and one at the end of the array
 2) in the while loop calculate width which is the space between two bars and consider the height minimun between the two pointers
 3) if the previous volume of water is less than the current then replace the water with the current volume
