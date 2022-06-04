@@ -51,6 +51,8 @@ public:
 /**
 -----------------------------------------------------------------NOTES (aka major takeaways)---------------------------------------------------------------------
 ---> as we move from one column to another we only gotta check the left side that is left row, left upper ans lower diagonal.
----> 
+---> for left diagonal we check the row index if it has any queen .....basically hashing
+---> for lower diagonal we check the index row+column 
+---> for upper diagonal we check indexes n-1+column-row
 
 */
