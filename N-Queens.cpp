@@ -6,6 +6,10 @@ speaking of conditons -
 ----> place 1 queen in every column
 ----> no queen should attack another queen (a queen can attack in 8 directions)
 
+example:---
+Input: n = 4
+Output: [[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
+
 */
 
 
